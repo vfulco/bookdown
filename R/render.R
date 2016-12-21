@@ -1,6 +1,6 @@
 #' Render multiple R Markdown documents into a book
 #'
-#' Render mulitple R Markdown files under the current working directory into a
+#' Render multiple R Markdown files under the current working directory into a
 #' book. It can be used in the RStudio IDE (specifically, the \code{knit} field
 #' in YAML). The \code{preview_chapter()} function is a wrapper of
 #' \code{render_book(preview = TRUE)}.
@@ -192,7 +192,7 @@ render_new_session = function(files, main, config, output_format, clean, envir, 
 #' directories created in the book root directory, typically including
 #' \file{*_files/}, \file{*_cache/}, \file{_book/}, and some HTML/LaTeX
 #' auxiliary files. These filenames depend on the book configurations. This
-#' function identifies these files and directories, and delete them if desired,
+#' function identifies these files and directories, and deletes them if desired,
 #' so you can rebuild the book with a clean source.
 #' @param clean Whether to delete the possible output files. If \code{FALSE},
 #'   simply print out a list of files/directories that should probably be
